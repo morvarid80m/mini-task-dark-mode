@@ -1,0 +1,50 @@
+/* ***** css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+    height: 100vh;
+}
+/* title */
+.title{
+    text-align: center;
+}
+/* cart style */
+.cart{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 1rem;
+}
+/* paragraph style */
+.para{
+    padding: 1rem;
+}
+/* switch dark & light style */
+.item {
+    width: 54px;
+    height: 30px;
+    background-color: rgb(190, 190, 206);
+    border-radius: 20px; 
+    transition: 0.3s ease-in;   
+    padding: 2px;
+}
+.switch {
+    width: 24px;
+    height: 24px;
+    background-color: rgb(255, 247, 249);
+    border-radius: 20px;
+}
+
+/* dynamic style */
+.show{
+    transform: translateX(26px);
+    background-color: rgb(2, 3, 26);
+    color: white;
+    
+}
